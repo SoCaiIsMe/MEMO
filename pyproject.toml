@@ -3,22 +3,29 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "unstable-rl"
-version = "0.2.0"
-description = "An Async Online Multi-Agent RL library for training reasoning models on TextArena games."
+name = "memo"
+version = "0.1.0"
+description = "Memory-Augmented Model Context Optimization for robust multi-turn multi-agent LLM games."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
-authors = [{name="anonymous", email="anonymous"},]
-dependencies = [ "textarena @ file:./TextArena", "wandb", "vllm", "ray>=2.43.0", "torch", "transformers", "peft", "trueskill", "pynvml", "dm-tree"]
+dependencies = [
+    "textarena @ file:./TextArena",
+    "wandb",
+    "vllm",
+    "ray>=2.43.0",
+    "torch",
+    "transformers",
+    "peft",
+    "trueskill",
+    "pynvml",
+    "dm-tree",
+    "pandas",
+]
 
 [tool.setuptools.packages.find]
-include = ["unstable*", "envs*", "evolution*", "mpr*"]
+include = ["mpr*", "memo*", "envs*", "evolution*"]
 exclude = ["wandb*", "outputs*", "data*", "logs*", "tests*"]
 
 [project.urls]
-"Homepage" = "https://github.com/LeonGuertler/UnstableBaselines"
-
-
-[project.scripts]
-unstable-terminal = "unstable.terminal_interface:main"d
+Homepage = "https://github.com/openverse-ai/MEMO"

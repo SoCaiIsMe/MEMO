@@ -1,4 +1,4 @@
-[submodule "textarena"]
+[submodule "TextArena"]
 	path = TextArena
 	url = https://github.com/TextArena/TextArena.git
 	branch = mpr
