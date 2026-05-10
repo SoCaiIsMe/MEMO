@@ -22,6 +22,7 @@
 <sup>*</sup>Equal Contribution &nbsp; <sup>+</sup>Project Leader &nbsp; <sup>&dagger;</sup>Equal Advising
 
 [![Website](https://img.shields.io/badge/Website-Project%20Page-blue)](https://yunfeixie233.github.io/MEMO/)
+[![Conference](https://img.shields.io/badge/ICML-2026-b22222)](https://icml.cc/Conferences/2026)
 
 </div>
 
