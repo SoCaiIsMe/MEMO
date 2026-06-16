@@ -28,4 +28,4 @@ include = ["mpr*", "memo*", "envs*", "evolution*"]
 exclude = ["wandb*", "outputs*", "data*", "logs*", "tests*"]
 
 [project.urls]
-Homepage = "https://github.com/openverse-ai/MEMO"
+Homepage = "https://github.com/SoCaiIsMe/MEMO"

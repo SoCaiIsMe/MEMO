@@ -77,7 +77,7 @@ Several games support length variants (e.g., `-short`, `-medium`, `-long`, `-ext
 
 ### Clone with Submodules
 ```bash
-git clone <repo-url>
+git clone https://github.com/SoCaiIsMe/MEMO.git
 cd <repo>
 git submodule update --init  # Do NOT use --recursive
 ```
